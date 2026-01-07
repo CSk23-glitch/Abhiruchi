@@ -1,7 +1,7 @@
 const translations = {
     en: {
         title: "Something Delicious is Cooking!",
-        subtitle: "We are currently working on our new website. Detailed menu and online ordering coming soon.",
+        subtitle: "We are currently working on our new website. Detailed menu is coming soon.",
         status: "Under Development",
         contactTitle: "Contact Us",
         addressTitle: "Visit Us",
@@ -9,7 +9,7 @@ const translations = {
     },
     ta: {
         title: "சுவையான உணவு தயாராகிறது!",
-        subtitle: "எங்கள் புதிய இணையதளம் உருவாக்கப்பட்டு வருகிறது. விரிவான உணவு பட்டியல் மற்றும் ஆன்லைன் ஆர்டர் வசதி விரைவில் வரும்.",
+        subtitle: "எங்கள் புதிய இணையதளம் உருவாக்கப்பட்டு வருகிறது. விரிவான உணவு பட்டியல விரைவில் வரும்.",
         status: "உருவாக்கத்தில் உள்ளது",
         contactTitle: "தொடர்புக்கு",
         addressTitle: "முகவரி",
@@ -17,7 +17,7 @@ const translations = {
     },
     te: {
         title: "రుచికరమైన వంట సిద్ధమవుతోంది!",
-        subtitle: "మా కొత్త వెబ్‌సైట్ పనులు జరుగుతున్నాయి. పూర్తి మెనూ మరియు ఆన్‌లైన్ ఆర్డరింగ్ త్వరలో రాబోతున్నాయి.",
+        subtitle: "మా కొత్త వెబ్‌సైట్ పనులు జరుగుతున్నాయి. పూర్తి మెనూ విరైవిలో వరుంది.",
         status: "అభివృద్ధిలో ఉంది",
         contactTitle: "సంప్రదించండి",
         addressTitle: "చిరునామా",
@@ -25,7 +25,7 @@ const translations = {
     },
     kn: {
         title: "ರುಚಿಕರವಾದ ಅಡುಗೆ ತಯಾರಾಗುತ್ತಿದೆ!",
-        subtitle: "ನಮ್ಮ ಹೊಸ ವೆಬ್‌ಸೈಟ್ ಸಿದ್ಧಗೊಳ್ಳುತ್ತಿದೆ. ವಿವರವಾದ ಮೆನು ಮತ್ತು ಆನ್‌ಲೈನ್ ಆರ್ಡರ್ ಸೇವೆ ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ.",
+        subtitle: "ನಮ್ಮ ಹೊಸ ವೆಬ್‌ಸೈಟ್ ಸಿದ್ಧಗೊಳ್ಳುತ್ತಿದೆ. ವಿವರವಾದ ಮೆನು ಬರಲಿದೆ.",
         status: "ಅಭಿವೃದ್ಧಿಯಲ್ಲಿದೆ",
         contactTitle: "ಸಂಪರ್ಕಿಸಿ",
         addressTitle: "ವಿಳಾಸ",
