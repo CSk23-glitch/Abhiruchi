@@ -14,6 +14,15 @@
 <body>
     <div class="container">
         <header>
+            <div class="lang-switcher-container">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">En</button>
+                    <button class="lang-btn" data-lang="ta">த</button>
+                    <button class="lang-btn" data-lang="te">తె</button>
+                    <button class="lang-btn" data-lang="kn">ಕ</button>
+                    <div class="slider-bg"></div>
+                </div>
+            </div>
             <div class="logo">ABHIRUCHI HOTEL AND CATERING SERVICES</div>
         </header>
 
@@ -22,16 +31,16 @@
                 <div class="banner-container">
                     <img src="Images/Banner.jpeg" alt="Abhiruchi Banner" class="banner-img">
                 </div>
-                <h1>Something Delicious is Cooking!</h1>
-                <p>We are currently working on our new website. Detailed menu is coming soon.</p>
+                <h1 id="main-title">Something Delicious is Cooking!</h1>
+                <p id="sub-title">We are currently working on our new website. Detailed menu is coming soon.</p>
 
                 <div class="status-badge">
                     <span class="pulse"></span>
-                    Under Development
+                    <span id="status-text">Under Development</span>
                 </div>
 
                 <div class="contact-section">
-                    <h2>Contact Us</h2>
+                    <h2 id="contact-title">Contact Us</h2>
                     <div class="contact-card">
                         <p class="contact-name">Suguna U</p>
                         <a href="tel:9790023336" class="contact-number">9790023336</a>
@@ -42,6 +51,14 @@
                         <a href="tel:8695964050" class="contact-number">8695964050</a>
                     </div>
                 </div>
+                <div class="address-section">
+                    <h2 id="address-title">Visit Us</h2>
+                    <p id="address-text" class="address-text">
+                        Kalagobasandhiram, Opposite to Anjaneya Temple,<br>
+                        Near Bus Stand, Near Lakshmi Sweets and Bakery,<br>
+                        Tamil Nadu, Pin Code: 635107
+                    </p>
+                </div>
             </div>
         </main>
 
@@ -49,6 +66,7 @@
             <p>&copy; 2026 Abhiruchi. All rights reserved.</p>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
