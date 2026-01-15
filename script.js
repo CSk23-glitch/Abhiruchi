@@ -1,32 +1,128 @@
 const translations = {
     en: {
-        title: "Something Delicious is Cooking!",
-        subtitle: "We are currently working on our new website. Detailed menu is coming soon.",
+        title: "Authentic Flavors, Wholesome Wellness",
+        subtitle: "At Abhiruchi, food is a celebration of health and heritage. We craft pure vegetarian delights using time-honored recipes and fresh ingredients, nourishing your body and soul with every bite.",
         status: "Under Development",
+
+        // Dining Section
+        diningTitle: "Dining Experience",
+        diningSubtitle: "Taste the Tradition",
+        // Menu Items
+        idly: "Idly",
+        dosa: "Dosa",
+        puri: "Puri Sagu",
+        tomatoBath: "Tomato Bath",
+        riceBath: "Rice Bath",
+        coffee: "Coffee & Tea",
+        juice: "Fresh Juice",
+        snacks: "Evening Snacks",
+
+        // Catering Section
+        cateringTitle: "Catering Services",
+        cateringSubtitle: "Pure Vegetarian Excellence",
+        cateringDesc: "We provide world-class catering services for weddings, corporate events, and family gatherings. Our specialty lies in authentic Indian vegetarian cuisines tailored to your taste.",
+        catList1: "South Indian Traditional",
+        catList2: "North Indian Delicacies",
+        catList3: "Chinese & Continental Fusion",
+        catList4: "Live Stalls & Chat Counters",
+        catList5: "Sweets & Savories",
+        catList6: "Customized Menus",
+        enquireBtn: "Enquire Now",
+
+        // Contact Section
         contactTitle: "Contact Us",
         addressTitle: "Visit Us",
         addressText: "Kalagobasandhiram, Opposite to Anjaneya Temple,<br>Near Bus Stand, Near Lakshmi Sweets and Bakery,<br>Tamil Nadu, Pin Code: 635107"
     },
     ta: {
-        title: "சுவையான உணவு தயாராகிறது!",
-        subtitle: "எங்கள் புதிய இணையதளப் பணிகள் நடைபெற்று வருகின்றன. விரிவான உணவுப் பட்டியல் விரைவில் வரும்.",
+        title: "உண்மையான சுவை, முழுமையான நலம்",
+        subtitle: "அபிருச்சியில், உணவு என்பது ஆரோக்கியம் மற்றும் பாரம்பரியத்தின் கொண்டாட்டம். நாங்கள் தூய சைவ உணவுகளை, காலத்தால் அழியாத சமையல் குறிப்புகள் மற்றும் தரமான பொருட்களைக் கொண்டு, உங்கள் உடலையும் மனதையும் மகிழ்விக்கும் வகையில் சமைக்கிறோம்.",
         status: "உருவாக்கத்தில் உள்ளது",
+
+        diningTitle: "உணவு அனுபவம்",
+        diningSubtitle: "பாரம்பரியத்தை ருசிக்கவும்",
+        idly: "இட்லி",
+        dosa: "தோசை",
+        puri: "பூரி சாகு",
+        tomatoBath: "தக்காளி சாதம்",
+        riceBath: "காய்கறி சாதம்",
+        coffee: "காபி & டீ",
+        juice: "பழச்சாறு",
+        snacks: "மாலை சிற்றுண்டி",
+
+        cateringTitle: "கேட்டரிங் சேவைகள்",
+        cateringSubtitle: "தூய சைவச் சிறப்பு",
+        cateringDesc: "திருமணங்கள், கார்ப்பரேட் நிகழ்வுகள் மற்றும் குடும்ப விழாக்களுக்கு உலகத் தரத்திலான கேட்டரிங் சேவைகளை வழங்குகிறோம். உங்கள் ரசனைக்கேற்ப உண்மையான இந்திய சைவ உணவுகளை வழங்குவதே எங்கள் சிறப்பு.",
+        catList1: "தென்னிந்திய பாரம்பரியம்",
+        catList2: "வடஇந்திய சுவைகள்",
+        catList3: "சைனீஸ் & கான்டினென்டல்",
+        catList4: "லைவ் ஸ்டால்ஸ் & சாட்",
+        catList5: "இனிப்பு & காரம்",
+        catList6: "தனிப்பயனாக்கப்பட்ட மெனு",
+        enquireBtn: "விசாரி",
+
         contactTitle: "தொடர்புக்கு",
         addressTitle: "முகவரி",
         addressText: "கலகோபசந்திரம், ஆஞ்சநேயர் கோவில் எதிரில்,<br>பேருந்து நிலையம் அருகில், லட்சுமி ஸ்வீட்ஸ் அருகில்,<br>தமிழ்நாடு, அஞ்சல் குறியீடு: 635107"
     },
     te: {
-        title: "రుచికరమైన వంట సిద్ధమవుతోంది!",
-        subtitle: "మా కొత్త వెబ్‌సైట్ పనులు జరుగుతున్నాయి. వివరణాత్మక మెనూ త్వరలో వస్తుంది.",
+        title: "సంప్రదాయ రుచులు, సంపూర్ణ ఆరోగ్యం",
+        subtitle: "అభిరుచిలో, మేము ఆహారాన్ని ఆరోగ్యం మరియు ఆనందాల కలయికగా భావిస్తాము. తాజా పదార్థాలతో మరియు తరతరాల నాటి వంటకాలతో తయారుచేసిన మా శుద్ధ శాఖాహార రుచులు మీ ఆరోగ్యాన్ని మరియు మనసును సంతృప్తి పరుస్తాయి.",
         status: "అభివృద్ధిలో ఉంది",
+
+        diningTitle: "డైనింగ్ అనుభవం",
+        diningSubtitle: "సంప్రదాయ రుచి",
+        idly: "ఇడ్లీ",
+        dosa: "దోశ",
+        puri: "పూరీ సాగు",
+        tomatoBath: "టమోటా బాత్",
+        riceBath: "రైస్ బాత్",
+        coffee: "కాఫీ & టీ",
+        juice: "ఫ్రష్ జ్యూస్",
+        snacks: "సాయంత్రం స్నాక్స్",
+
+        cateringTitle: "కేటరింగ్ సేవలు",
+        cateringSubtitle: "స్వచ్ఛమైన శాఖాహార శ్రేష్ఠత",
+        cateringDesc: "వివాహాలు, కార్పొరేట్ ఈవెంట్‌లు మరియు కుటుంబ సమావేశాల కోసం మేము ప్రపంచ స్థాయి కేటరింగ్ సేవలను అందిస్తాము. మీ అభిరుచికి తగినట్లుగా సాంప్రదాయ భారతీయ శాఖాహార వంటకాలను అందించడం మా ప్రత్యేకత.",
+        catList1: "దక్షిణ భారత సంప్రదాయం",
+        catList2: "ఉత్తర భారత వంటకాలు",
+        catList3: "చైనీస్ & కాంటినెంటల్",
+        catList4: "లైవ్ ஸ்டాల్స్ & చాట్",
+        catList5: "స్వీట్లు & సవరీలు",
+        catList6: "కస్టమైజ్డ్ మెనూలు",
+        enquireBtn: "విచారించండి",
+
         contactTitle: "సంప్రదించండి",
         addressTitle: "చిరునామా",
         addressText: "కలగోబసంధిరం, ఆంజనేయ స్వామి ఆలయం ఎదురుగా,<br>బస్ స్టాండ్ దగ్గర, లక్ష్మి స్వీట్స్ దగ్గర,<br>తమిళనాడు, పిన్ కోడ్: 635107"
     },
     kn: {
-        title: "ರುಚಿಕರವಾದ ಅಡುಗೆ ತಯಾರಾಗುತ್ತಿದೆ!",
-        subtitle: "ನಮ್ಮ ಹೊಸ ವೆಬ್‌ಸೈಟ್ ಕಾಮಗಾರಿ ನಡೆಯುತ್ತಿದೆ. ವಿವರವಾದ ಮೆನು ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ.",
+        title: "ಪರಂಪರೆಯ ರುಚಿ, ಆರೋಗ್ಯದ ಸಿರಿ",
+        subtitle: "ಅಭಿರುಚಿಯಲ್ಲಿ, ಆಹಾರವು ಆರೋಗ್ಯ ಮತ್ತು ಸಂಪ್ರದಾಯದ ಸಂಗಮವಾಗಿದೆ. ನಾವು ತಾಜಾ ಪದಾರ್ಥಗಳು ಮತ್ತು ಸಾಂಪ್ರದಾಯಿಕ ಪಾಕವಿಧಾನಗಳನ್ನು ಬಳಸಿ ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಊಟವನ್ನು ನೀಡುತ್ತೇವೆ, ಅದು ನಿಮ್ಮ ದೇಹ ಮತ್ತು ಮನಸ್ಸನ್ನು ತೃಪ್ತಿಪಡಿಸುತ್ತದೆ.",
         status: "ಅಭಿವೃದ್ಧಿಯಲ್ಲಿದೆ",
+
+        diningTitle: "ಊಟದ ಅನುಭವ",
+        diningSubtitle: "ಸಂಪ್ರದಾಯದ ರುಚಿ",
+        idly: "ಇಡ್ಲಿ",
+        dosa: "ದೋಸೆ",
+        puri: "ಪೂರಿ ಸಾಗು",
+        tomatoBath: "ಟೊಮೆಟೊ ಬಾತ್",
+        riceBath: "ರೈಸ್ ಬಾತ್",
+        coffee: "ಕಾಫಿ & ಟೀ",
+        juice: "ಫ್ರೆಶ್ ಜ್ಯೂಸ್",
+        snacks: "ಸಂಜೆ ತಿಂಡಿಗಳು",
+
+        cateringTitle: "ಕೇಟರಿಂಗ್ ಸೇವೆಗಳು",
+        cateringSubtitle: "ಶುದ್ಧ ಸಸ್ಯಾಹಾರಿ ಶ್ರೇಷ್ಠತೆ",
+        cateringDesc: "ಮದುವೆಗಳು, ಕಾರ್ಪೊರೇಟ್ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಕೌટુંಬಿಕ ಸಮಾರಂಭಗಳಿಗೆ ನಾವು ವಿಶ್ವ ದರ್ಜೆಯ ಕೇಟರಿಂಗ್ ಸೇವೆಗಳನ್ನು ಒದಗಿಸುತ್ತೇವೆ. ನಿಮ್ಮ ರುಚಿಗೆ ತಕ್ಕಂತೆ ಸಾಂಪ್ರದಾಯಿಕ ಭಾರತೀಯ ಸಸ್ಯಾಹಾರಿ ಅಡುಗೆಗಳನ್ನು ಒದಗಿಸುವುದು ನಮ್ಮ ವಿಶೇಷತೆ.",
+        catList1: "ದಕ್ಷಿಣ ಭಾರತದ ಸಂಪ್ರದಾಯ",
+        catList2: "ಉತ್ತರ ಭಾರತದ ಖಾದ್ಯಗಳು",
+        catList3: "ಚೈನೀಸ್ & ಕಾಂಟಿನೆಂಟಲ್",
+        catList4: "ಲೈವ್ ಸ್ಟಾಲ್ಸ್ & ಚಾಟ್",
+        catList5: "ಸಿಹಿ & ಖಾರ",
+        catList6: "ಕಸ್ಟಮೈಸ್ ಮಾಡಿದ ಮೆನು",
+        enquireBtn: "ವಿಚಾರಿಸಿ",
+
         contactTitle: "ಸಂಪರ್ಕಿಸಿ",
         addressTitle: "ವಿಳಾಸ",
         addressText: "ಕಲಗೋಬಸಂಧಿರಮ್, ಆಂಜನೇಯ ದೇವಸ್ಥಾನದ ಎದುರು,<br>ಬಸ್ ನಿಲ್ದಾಣದ ಹತ್ತಿರ, ಲಕ್ಷ್ಮಿ ಸ್ವೀಟ್ಸ್ ಹತ್ತಿರ,<br>ತಮಿಳುನಾಡು, ಪಿన్ ಕೋಡ್: 635107"
@@ -34,31 +130,43 @@ const translations = {
 };
 
 function changeLanguage(lang) {
-    document.getElementById('main-title').innerText = translations[lang].title;
-    document.getElementById('sub-title').innerText = translations[lang].subtitle;
-    document.getElementById('status-text').innerText = translations[lang].status;
-    document.getElementById('contact-title').innerText = translations[lang].contactTitle;
+    const t = translations[lang];
 
-    // Check if address elements exist before setting (in case they are added later or structure changes)
-    const addressTitle = document.getElementById('address-title');
-    const addressText = document.getElementById('address-text');
+    // Manual Updates by ID
+    const el = (id) => document.getElementById(id);
+    if (el('main-title')) el('main-title').innerText = t.title;
+    if (el('sub-title')) el('sub-title').innerText = t.subtitle;
+    if (el('status-text')) el('status-text').innerText = t.status;
+    if (el('contact-title')) el('contact-title').innerText = t.contactTitle;
+    if (el('address-title')) el('address-title').innerText = t.addressTitle;
+    if (el('address-text')) el('address-text').innerHTML = t.addressText;
 
-    if (addressTitle) addressTitle.innerText = translations[lang].addressTitle;
-    if (addressText) addressText.innerHTML = translations[lang].addressText;
+    // New Sections
+    if (el('dining-title')) el('dining-title').innerText = t.diningTitle;
+    if (el('dining-subtitle')) el('dining-subtitle').innerText = t.diningSubtitle;
+    if (el('catering-title')) el('catering-title').innerText = t.cateringTitle;
+    if (el('catering-subtitle')) el('catering-subtitle').innerText = t.cateringSubtitle;
+    if (el('catering-desc')) el('catering-desc').innerText = t.cateringDesc;
+    if (el('enquire-btn')) el('enquire-btn').innerText = t.enquireBtn;
+
+    // Update all elements with data-i18n attribute (Menu & List)
+    const i18nElems = document.querySelectorAll('[data-i18n]');
+    i18nElems.forEach(elem => {
+        const key = elem.getAttribute('data-i18n');
+        if (t[key]) {
+            elem.innerText = t[key];
+        }
+    });
 
     // Update active button state and animate slider
     const buttons = document.querySelectorAll('.lang-btn');
     const slider = document.querySelector('.slider-bg');
 
     buttons.forEach((btn, index) => {
+        const btnLang = btn.dataset.lang;
         btn.classList.remove('active');
-        if (btn.dataset.lang === lang) {
+        if (btnLang === lang) {
             btn.classList.add('active');
-            // Move slider
-            /* Assuming fixed width buttons of 40px + some potential gap/padding logic if needed.
-               Here we can use the index to translate.
-               Each button is ~40px width.
-            */
             if (slider) {
                 slider.style.transform = `translateX(${index * 100}%)`;
             }
@@ -75,7 +183,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            changeLanguage(e.target.dataset.lang);
+            const target = e.target.closest('.lang-btn');
+            if (target) {
+                changeLanguage(target.dataset.lang);
+            }
         });
     });
+
+    // Form Handling
+    const form = document.getElementById('cateringForm');
+    if (form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            console.log(`Enquiry received from ${name} (${phone})`);
+            alert('Thank you for your enquiry! We will contact you shortly.');
+            form.reset();
+        });
+    }
 });

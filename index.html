@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhiruchi - Coming Soon</title>
+    <title>Abhiruchi Hotel & Catering Services</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,60 +12,197 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="lang-switcher-container">
-                <div class="lang-switcher">
-                    <button class="lang-btn active" data-lang="en">En</button>
-                    <button class="lang-btn" data-lang="ta">த</button>
-                    <button class="lang-btn" data-lang="te">తె</button>
-                    <button class="lang-btn" data-lang="kn">ಕ</button>
-                    <div class="slider-bg"></div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="Images/logo.png" alt="Abhiruchi Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#dining" class="nav-link">Dining</a></li>
+                <li><a href="#catering" class="nav-link">Catering</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <div class="lang-switcher">
+                        <button class="lang-btn active" data-lang="en">En</button>
+                        <button class="lang-btn" data-lang="ta">த</button>
+                        <button class="lang-btn" data-lang="te">తె</button>
+                        <button class="lang-btn" data-lang="kn">ಕ</button>
+                        <div class="slider-bg"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <h1 id="main-title">Authentic Flavors, Wholesome Wellness</h1>
+        <p id="sub-title">At Abhiruchi, food is a celebration of health and heritage. We craft pure vegetarian delights
+            using time-honored recipes and fresh ingredients, nourishing your body and soul with every bite.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </header>
+
+    <!-- Dining Menu Section -->
+    <section id="dining" class="dining-section">
+        <h2 class="section-title" id="dining-title">Dining Experience</h2>
+        <span class="section-subtitle" id="dining-subtitle">Taste the Tradition</span>
+
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <!-- Set 1 -->
+                <div class="marquee-card">
+                    <img src="Images/south_indian.png" alt="Idly" class="marquee-img">
+                    <div class="marquee-text" data-i18n="idly">Idly</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/dosa.png" alt="Dosa" class="marquee-img">
+                    <div class="marquee-text" data-i18n="dosa">Dosa</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/puri_sagu.png" alt="Puri Sagu" class="marquee-img">
+                    <div class="marquee-text" data-i18n="puri">Puri Sagu</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/tomato_bath.png" alt="Tomato Bath" class="marquee-img">
+                    <div class="marquee-text" data-i18n="tomatoBath">Tomato Bath</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/rice_bath.png" alt="Rice Bath" class="marquee-img">
+                    <div class="marquee-text" data-i18n="riceBath">Rice Bath</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/filter_coffee.png" alt="Coffee" class="marquee-img">
+                    <div class="marquee-text" data-i18n="coffee">Coffee & Tea</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/fresh_juice.png" alt="Fresh Juice" class="marquee-img">
+                    <div class="marquee-text" data-i18n="juice">Fresh Juice</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/evening_snacks.png" alt="Evening Snacks" class="marquee-img">
+                    <div class="marquee-text" data-i18n="snacks">Evening Snacks</div>
+                </div>
+
+                <!-- Duplicate Set for Scroll -->
+                <div class="marquee-card">
+                    <img src="Images/south_indian.png" alt="Idly" class="marquee-img">
+                    <div class="marquee-text" data-i18n="idly">Idly</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/dosa.png" alt="Dosa" class="marquee-img">
+                    <div class="marquee-text" data-i18n="dosa">Dosa</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/puri_sagu.png" alt="Puri Sagu" class="marquee-img">
+                    <div class="marquee-text" data-i18n="puri">Puri Sagu</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/tomato_bath.png" alt="Tomato Bath" class="marquee-img">
+                    <div class="marquee-text" data-i18n="tomatoBath">Tomato Bath</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/rice_bath.png" alt="Rice Bath" class="marquee-img">
+                    <div class="marquee-text" data-i18n="riceBath">Rice Bath</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/filter_coffee.png" alt="Coffee" class="marquee-img">
+                    <div class="marquee-text" data-i18n="coffee">Coffee & Tea</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/fresh_juice.png" alt="Fresh Juice" class="marquee-img">
+                    <div class="marquee-text" data-i18n="juice">Fresh Juice</div>
+                </div>
+                <div class="marquee-card">
+                    <img src="Images/evening_snacks.png" alt="Evening Snacks" class="marquee-img">
+                    <div class="marquee-text" data-i18n="snacks">Evening Snacks</div>
                 </div>
             </div>
-            <div class="logo">ABHIRUCHI HOTEL AND CATERING SERVICES</div>
-        </header>
+        </div>
+    </section>
 
-        <main>
-            <div class="content">
-                <div class="banner-container">
-                    <img src="Images/Banner.jpeg" alt="Abhiruchi Banner" class="banner-img">
-                </div>
-                <h1 id="main-title">Something Delicious is Cooking!</h1>
-                <p id="sub-title">We are currently working on our new website. Detailed menu is coming soon.</p>
+    <!-- Catering Section -->
+    <section id="catering" class="catering-section">
+        <div class="catering-container">
+            <div class="catering-text">
+                <h2 class="section-title" style="text-align: left;" id="catering-title">Catering Services</h2>
+                <h3 id="catering-subtitle">Pure Vegetarian Excellence</h3>
+                <p id="catering-desc">We provide world-class catering services for weddings, corporate events, and
+                    family gatherings. Our
+                    specialty lies in authentic Indian vegetarian cuisines tailored to your taste.</p>
 
-                <div class="status-badge">
-                    <span class="pulse"></span>
-                    <span id="status-text">Under Development</span>
-                </div>
+                <ul class="cuisine-list">
+                    <li data-i18n="catList1">South Indian Traditional</li>
+                    <li data-i18n="catList2">North Indian Delicacies</li>
+                    <li data-i18n="catList3">Chinese & Continental Fusion</li>
+                    <li data-i18n="catList4">Live Stalls & Chat Counters</li>
+                    <li data-i18n="catList5">Sweets & Savories</li>
+                    <li data-i18n="catList6">Customized Menus</li>
+                </ul>
+                <a href="#contact" class="btn" id="enquire-btn">Enquire Now</a>
+            </div>
+            <div class="catering-img-box">
+                <img src="Images/catering.png" alt="Catering Service Setup" class="catering-img">
+            </div>
+        </div>
+    </section>
 
-                <div class="contact-section">
-                    <h2 id="contact-title">Contact Us</h2>
-                    <div class="contact-card">
-                        <p class="contact-name">Suguna U</p>
-                        <a href="tel:9790023336" class="contact-number">9790023336</a>
-                    </div>
-                    <div class="divider">OR</div>
-                    <div class="contact-card">
-                        <p class="contact-name">Shilp Boopathi U</p>
-                        <a href="tel:8695964050" class="contact-number">8695964050</a>
-                    </div>
+    <!-- Contact & Enquiry Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <span class="section-subtitle">Plan Your Next Event</span>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <h4 id="contact-title">Contact Persons</h4>
+                    <p><strong>Suguna U</strong>: <a href="tel:9790023336">9790023336</a></p>
+                    <p><strong>Shilp Boopathi U</strong>: <a href="tel:8695964050">8695964050</a></p>
                 </div>
-                <div class="address-section">
-                    <h2 id="address-title">Visit Us</h2>
-                    <p id="address-text" class="address-text">
+                <div class="info-item">
+                    <h4 id="address-title">Visit Us</h4>
+                    <p id="address-text">
                         Kalagobasandhiram, Opposite to Anjaneya Temple,<br>
                         Near Bus Stand, Near Lakshmi Sweets and Bakery,<br>
                         Tamil Nadu, Pin Code: 635107
                     </p>
                 </div>
             </div>
-        </main>
 
-        <footer>
-            <p>&copy; 2026 Abhiruchi. All rights reserved.</p>
-        </footer>
-    </div>
+            <div class="enquiry-form">
+                <form id="cateringForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+91 98765 43210" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventType">Event Type</label>
+                        <select id="eventType">
+                            <option value="wedding">Wedding</option>
+                            <option value="birthday">Birthday Party</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message / Requirements</label>
+                        <textarea id="message" rows="4" placeholder="Tell us about your catering needs..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Abhiruchi. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 
