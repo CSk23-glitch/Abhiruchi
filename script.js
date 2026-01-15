@@ -185,6 +185,7 @@ function changeLanguage(lang) {
     // Update active button state and animate slider
     const buttons = document.querySelectorAll('.lang-btn');
     const slider = document.querySelector('.slider-bg');
+    const mobileSelect = document.getElementById('mobile-lang-selector');
 
     buttons.forEach((btn, index) => {
         const btnLang = btn.dataset.lang;
@@ -196,6 +197,11 @@ function changeLanguage(lang) {
             }
         }
     });
+
+    // Update Mobile Dropdown value
+    if (mobileSelect) {
+        mobileSelect.value = lang;
+    }
 
     // Save preference
     localStorage.setItem('preferredLanguage', lang);
@@ -213,6 +219,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Handle Mobile Dropdown Change
+    const mobileSelect = document.getElementById('mobile-lang-selector');
+    if (mobileSelect) {
+        mobileSelect.addEventListener('change', (e) => {
+            changeLanguage(e.target.value);
+        });
+    }
 
     // Form Handling - Send to WhatsApp
     const form = document.getElementById('cateringForm');

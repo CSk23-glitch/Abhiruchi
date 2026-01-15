@@ -155,6 +155,26 @@ body {
     z-index: 1;
 }
 
+/* --- Mobile Language Dropdown (Hidden by default) --- */
+.mobile-lang-dropdown {
+    display: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background: white;
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.mobile-lang-dropdown:focus {
+    border-color: var(--primary-color);
+}
+
 /* --- Hero Section --- */
 .hero {
     position: relative;
@@ -565,6 +585,17 @@ section {
     .logo img {
         height: 60px;
         /* Slightly smaller logo */
+    }
+
+    /* Swap Language Switcher for Dropdown */
+    .lang-switcher {
+        display: none;
+    }
+
+    .mobile-lang-dropdown {
+        display: block;
+        margin: 0;
+        /* Centered in flex container */
     }
 
     /* Fix Hero Banner on Mobile */
