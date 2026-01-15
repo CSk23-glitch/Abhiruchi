@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const message = document.getElementById('message').value;
 
             // Construct WhatsApp Message
-            const phoneNumber = "919790023336"; // Suguna U
+            const phoneNumber = "919345123336"; // Suguna U
             const text = `*New Catering Enquiry*%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Event Type:* ${eventType}%0A*Message:* ${message}`;
 
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
