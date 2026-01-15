@@ -588,8 +588,9 @@ section {
     }
 
     /* Swap Language Switcher for Dropdown */
+    /* Swap Language Switcher for Dropdown */
     .lang-switcher {
-        display: none;
+        display: none !important;
     }
 
     .mobile-lang-dropdown {
