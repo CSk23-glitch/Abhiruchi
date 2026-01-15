@@ -17,6 +17,11 @@
     --transition: all 0.3s ease;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -275,30 +280,33 @@ section {
     overflow: hidden;
     background: transparent;
     padding: 1rem 0;
-    white-space: nowrap;
     position: relative;
     /* Removed solid bg to make it cleaner */
 }
 
 .marquee-content {
-    display: inline-block;
+    display: flex;
+    /* switched from inline-block to flex for better alignment */
+    width: max-content;
+    /* Ensure container fits all items */
     animation: scroll 40s linear infinite;
+    gap: 3rem;
+    /* Use gap instead of margins for consistency */
 }
 
 .marquee-card {
-    display: inline-flex;
+    flex: 0 0 auto;
+    /* Prevent shrinking */
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    margin: 0 1.5rem;
     background: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: var(--card-shadow);
     transition: transform 0.3s ease;
     text-transform: none;
-    /* Reset */
-    vertical-align: top;
 }
 
 .marquee-card:hover {
@@ -473,6 +481,49 @@ section {
     text-align: center;
     padding: 2rem;
     font-size: 0.9rem;
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.map-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* --- Floating WhatsApp Button --- */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
 }
 
 /* --- Responsive --- */

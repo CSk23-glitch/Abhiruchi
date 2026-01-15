@@ -32,7 +32,13 @@ const translations = {
         // Contact Section
         contactTitle: "Contact Us",
         addressTitle: "Visit Us",
-        addressText: "Kalagobasandhiram, Opposite to Anjaneya Temple,<br>Near Bus Stand, Near Lakshmi Sweets and Bakery,<br>Tamil Nadu, Pin Code: 635107"
+        addressText: "Kalagobasandhiram, Opposite to Anjaneya Temple,<br>Near Bus Stand, Near Lakshmi Sweets and Bakery,<br>Tamil Nadu, Pin Code: 635107",
+
+        // Event Types
+        wedding: "Wedding",
+        birthday: "Birthday Party",
+        corporate: "Corporate Event",
+        other: "Other"
     },
     ta: {
         title: "உண்மையான சுவை, முழுமையான நலம்",
@@ -63,7 +69,13 @@ const translations = {
 
         contactTitle: "தொடர்புக்கு",
         addressTitle: "முகவரி",
-        addressText: "கலகோபசந்திரம், ஆஞ்சநேயர் கோவில் எதிரில்,<br>பேருந்து நிலையம் அருகில், லட்சுமி ஸ்வீட்ஸ் அருகில்,<br>தமிழ்நாடு, அஞ்சல் குறியீடு: 635107"
+        addressText: "கலகோபசந்திரம், ஆஞ்சநேயர் கோவில் எதிரில்,<br>பேருந்து நிலையம் அருகில், லட்சுமி ஸ்வீட்ஸ் அருகில்,<br>தமிழ்நாடு, அஞ்சல் குறியீடு: 635107",
+
+        // Event Types
+        wedding: "திருமணம்",
+        birthday: "பிறந்தநாள் விழா",
+        corporate: "கார்ப்பரேட் நிகழ்வு",
+        other: "மற்றவை"
     },
     te: {
         title: "సంప్రదాయ రుచులు, సంపూర్ణ ఆరోగ్యం",
@@ -78,7 +90,7 @@ const translations = {
         tomatoBath: "టమోటా బాత్",
         riceBath: "రైస్ బాత్",
         coffee: "కాఫీ & టీ",
-        juice: "ఫ్రష్ జ్యూస్",
+        juice: "ఫ్రెష్ జ్యూస్",
         snacks: "సాయంత్రం స్నాక్స్",
 
         cateringTitle: "కేటరింగ్ సేవలు",
@@ -87,14 +99,20 @@ const translations = {
         catList1: "దక్షిణ భారత సంప్రదాయం",
         catList2: "ఉత్తర భారత వంటకాలు",
         catList3: "చైనీస్ & కాంటినెంటల్",
-        catList4: "లైవ్ ஸ்டాల్స్ & చాట్",
+        catList4: "లైవ్ స్టాల్స్ & చాట్",
         catList5: "స్వీట్లు & సవరీలు",
         catList6: "కస్టమైజ్డ్ మెనూలు",
         enquireBtn: "విచారించండి",
 
         contactTitle: "సంప్రదించండి",
         addressTitle: "చిరునామా",
-        addressText: "కలగోబసంధిరం, ఆంజనేయ స్వామి ఆలయం ఎదురుగా,<br>బస్ స్టాండ్ దగ్గర, లక్ష్మి స్వీట్స్ దగ్గర,<br>తమిళనాడు, పిన్ కోడ్: 635107"
+        addressText: "కలగోబసంధిరం, ఆంజనేయ స్వామి ఆలయం ఎదురుగా,<br>బస్ స్టాండ్ దగ్గర, లక్ష్మి స్వీట్స్ దగ్గర,<br>తమిళనాడు, పిన్ కోడ్: 635107",
+
+        // Event Types
+        wedding: "వివాహం",
+        birthday: "పుట్టినరోజు పార్టీ",
+        corporate: "కార్పొరేట్ ఈవెంట్",
+        other: "ఇతర"
     },
     kn: {
         title: "ಪರಂಪರೆಯ ರುಚಿ, ಆರೋಗ್ಯದ ಸಿರಿ",
@@ -125,7 +143,13 @@ const translations = {
 
         contactTitle: "ಸಂಪರ್ಕಿಸಿ",
         addressTitle: "ವಿಳಾಸ",
-        addressText: "ಕಲಗೋಬಸಂಧಿರಮ್, ಆಂಜನೇಯ ದೇವಸ್ಥಾನದ ಎದುರು,<br>ಬಸ್ ನಿಲ್ದಾಣದ ಹತ್ತಿರ, ಲಕ್ಷ್ಮಿ ಸ್ವೀಟ್ಸ್ ಹತ್ತಿರ,<br>ತಮಿಳುನಾಡು, ಪಿన్ ಕೋಡ್: 635107"
+        addressText: "ಕಲಗೋಬಸಂಧಿರಮ್, ಆಂಜನೇಯ ದೇವಸ್ಥಾನದ ಎದುರು,<br>ಬಸ್ ನಿಲ್ದಾಣದ ಹತ್ತಿರ, ಲಕ್ಷ್ಮಿ ಸ್ವೀಟ್ಸ್ ಹತ್ತಿರ,<br>ತಮಿಳುನಾಡು, ಪಿನ್ ಕೋಡ್: 635107",
+
+        // Event Types
+        wedding: "ಮದುವೆ",
+        birthday: "ಹುಟ್ಟುಹಬ್ಬದ ಪಾರ್ಟಿ",
+        corporate: "ಕಾರ್ಪೊರೇಟ್ ಕಾರ್ಯಕ್ರಮ",
+        other: "ಇತರೆ"
     }
 };
 
@@ -190,15 +214,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Form Handling
+    // Form Handling - Send to WhatsApp
     const form = document.getElementById('cateringForm');
     if (form) {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const name = document.getElementById('name').value;
             const phone = document.getElementById('phone').value;
-            console.log(`Enquiry received from ${name} (${phone})`);
-            alert('Thank you for your enquiry! We will contact you shortly.');
+            const eventType = document.getElementById('eventType').value;
+            const message = document.getElementById('message').value;
+
+            // Construct WhatsApp Message
+            const phoneNumber = "919790023336"; // Suguna U
+            const text = `*New Catering Enquiry*%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Event Type:* ${eventType}%0A*Message:* ${message}`;
+
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
+
+            // Open WhatsApp
+            window.open(whatsappUrl, '_blank');
+
             form.reset();
         });
     }
