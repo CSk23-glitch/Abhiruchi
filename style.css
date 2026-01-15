@@ -501,6 +501,13 @@ section {
     text-decoration: underline;
 }
 
+.map-container {
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+}
+
 /* --- Floating WhatsApp Button --- */
 .whatsapp-float {
     position: fixed;
@@ -531,17 +538,68 @@ section {
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Fix Nav Overflow */
     .nav-container {
         flex-direction: column;
         gap: 1rem;
+        padding: 0 1rem;
+        width: 100%;
+        /* Ensure it doesn't overflow */
+    }
+
+    .nav-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+        /* Allow wrapping if needed */
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo img {
+        height: 60px;
+        /* Slightly smaller logo */
+    }
+
+    /* Fix Hero Banner on Mobile */
+    .hero {
+        background-attachment: scroll;
+        /* Disable fixed for mobile performance/layout */
+        background-position: center top;
+        /* Focus on top part of image */
+        background-size: cover;
+        padding: 6rem 1rem 3rem;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /* Fix other sections */
+    section {
+        padding: 3rem 1rem;
     }
 
     .contact-container {
         grid-template-columns: 1fr;
+        padding: 1.5rem;
     }
 
     .contact-info {
@@ -553,5 +611,12 @@ section {
 
     .catering-container {
         flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    /* Ensure marquee doesn't cause overflow */
+    .marquee-container {
+        width: 100vw;
+        max-width: 100%;
     }
 }
